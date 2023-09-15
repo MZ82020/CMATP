@@ -9,4 +9,27 @@ Our approach includes a cross-attention module that integrates trajectory data w
 
 ![Architecture_CMATP_Final_BMVC2023 drawio](https://github.com/MZ82020/CMATP/assets/94976539/00d6d619-6e66-4279-bfac-34afb999da80)
 
+# Prerequisites
+
+To install all the dependency packages, please run:
+
+pip install -r requirements.txt
+
+# Data Preparation
+
+- We use ETH and UCY datasets. Please download and extract information into the ./data_trajpred folder. Click on here to download data : https://drive.google.com/drive/folders/1REq_if6nqdjw_jYtuRVPJqmDNTcIxoJU?usp=drive_link
+Then, update the data path. The dataset used for training is set by default to ETH, you can change that in the code into UCY
+- Set the path for saving your trained models in the code (line ..).
+- Run the following command to train and test the model
+  python ....
+
+# Notes
+The repository is still under construction. Please let me know if you encounter any issues.
+Best, 
+Mayssa ZAIER
+
+
+
+
+
 
