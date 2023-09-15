@@ -18,10 +18,9 @@ pip install -r requirements.txt
 # Data Preparation
 
 - We use ETH and UCY datasets. Please download and extract information into the ./data_trajpred folder. Click on here to download data : https://drive.google.com/drive/folders/1REq_if6nqdjw_jYtuRVPJqmDNTcIxoJU?usp=drive_link
-Then, update the data path. The dataset used for training is set by default to ETH, you can change that in the code into UCY
-- Set the path for saving your trained models in the code (line ..).
-- Run the following command to train and test the model
-  python ....
+Then, update the data path. The dataset used for training is set by default to eth, you can change that in the code into hotel, zara_01, zara_02, university
+- Set the path for saving your trained models in the code (save_path variable).
+- Run the following jupyter Pred_Traj_2EncDecTransf_CA_eth.ipynb to train and test the model
 
 # Notes
 The repository is still under construction. Please let me know if you encounter any issues.
