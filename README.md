@@ -18,7 +18,8 @@ pip install -r requirements.txt
 # Data Preparation
 
 1- We use ETH and UCY datasets. Please download and extract information into the ./data_trajpred folder. Click on here to download data : https://drive.google.com/drive/folders/1REq_if6nqdjw_jYtuRVPJqmDNTcIxoJU?usp=drive_link
-Then, update the data path (under DataBase Variables). The dataset used for training is set by default to eth, you can change that in the code into hotel, zara_01, zara_02, university (dataset_name variable);
+Then, update the data path (under DataBase Variables). The dataset used for training is set by default to eth, you can change that in the code into hotel, zara_01, zara_02, university (dataset_name variable).
+
 The dataset should be in the /data folder and have the following structure:
 
     -data
