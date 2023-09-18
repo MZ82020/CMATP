@@ -22,11 +22,17 @@ Then, update the data path (under DataBase Variables). The dataset used for trai
 The dataset should be in the /data folder and have the following structure:
 
 - data
+  
     - data_trajpred
+      
         - datasetname (eth, hotel, zara_01, zara_02, university)
+          
               - visual_data
+          
               - pos_data_train.db
+          
               - pos_data_val.db
+          
               - pos_data.db 
 
 2- Set the path for saving your trained models in the code (save_path variable).
