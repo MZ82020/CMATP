@@ -7,7 +7,7 @@ we propose a novel approach called Cross-Modal Attention Trajectory Prediction (
 
 Our approach includes a cross-attention module that integrates trajectory data with contextual information, allowing the network to capture the general temporal consistency of pedestrian movement. By using a convolutional model for feature extraction and a bimodal transformer, CMATP captures intricate spatio-temporal interactions, improving accuracy while maintaining the same computational complexity as using a single data type.
 
-![Architecture_CMATP_Final_BMVC2023 drawio](https://github.com/MZ82020/CMATP/assets/94976539/00d6d619-6e66-4279-bfac-34afb999da80)
+![image](https://github.com/MZ82020/CMATP/assets/94976539/2a0c4050-597c-4a10-8c62-ebbcbf4dbf46)
 
 # Prerequisites
 
